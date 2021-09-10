@@ -1,0 +1,12 @@
+.grid-wrapper {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+
+    > div {
+        height: 650px;
+        width: 100%;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+        background-color: #fff;
+    }
+}

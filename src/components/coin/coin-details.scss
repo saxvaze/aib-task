@@ -1,0 +1,32 @@
+.coin-wrapper {
+    padding: 16px;
+    box-sizing: border-box;
+
+    > div {
+        padding: 16px;
+        box-sizing: border-box;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+        background-color: #fff;
+
+        img {
+            width: 200px;
+        }
+
+        .key-value {
+            .key {
+                color: #555;
+                width: 100px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .value {
+                color: #333;
+            }
+        }
+
+        p {
+            line-height: 1.4rem;
+        }
+    }
+}
